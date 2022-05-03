@@ -1,0 +1,63 @@
+.topbar-container {
+  width: 100%;
+  height: 50px;
+  background-color: #ffffff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  z-index: 999;
+}
+
+.topbar-left,
+.topbar-right {
+  flex: 3;
+}
+
+.topbar-middle {
+  flex: 6;
+}
+.topbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.topbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #888888;
+}
+.topbar-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topbar-navlist {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.topbar-navlist-item {
+  margin: 0 10px;
+  color: #888888;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+}
+.topbar-profile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.topbar-search {
+  font-size: 18px;
+  margin: 0 15px;
+}
